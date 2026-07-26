@@ -1,6 +1,12 @@
 ---
 name: game-developer
 description: Unity/Unreal/Godot 游戏编程指导，覆盖架构、优化、联网全栈
+source:
+  type: original
+  repo: skills-repo/indie-game-developer
+  path: skills/game-developer/SKILL.md
+  version: 1.0.0
+  updated: 2026-07-26
 metadata:
   category: 编程
   platform: Unity,Unreal,Godot

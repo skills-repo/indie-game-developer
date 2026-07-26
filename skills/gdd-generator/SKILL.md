@@ -1,6 +1,12 @@
 ---
 name: gdd-generator
 description: 将游戏设计方案转化为专业的游戏设计文档（GDD）
+source:
+  type: original
+  repo: skills-repo/indie-game-developer
+  path: skills/gdd-generator/SKILL.md
+  version: 1.0.0
+  updated: 2026-07-26
 metadata:
   category: 设计
   platform: 通用

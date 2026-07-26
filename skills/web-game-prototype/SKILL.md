@@ -1,6 +1,12 @@
 ---
 name: web-game-prototype
 description: 用自然语言描述需求，直接生成 Three.js 3D 浏览器游戏原型
+source:
+  type: original
+  repo: skills-repo/indie-game-developer
+  path: skills/web-game-prototype/SKILL.md
+  version: 1.0.0
+  updated: 2026-07-26
 metadata:
   category: 原型
   platform: Web

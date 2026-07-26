@@ -1,6 +1,12 @@
 ---
 name: game-designer
 description: 一句话描述游戏概念，生成完整可玩的游戏设计方案
+source:
+  type: original
+  repo: skills-repo/indie-game-developer
+  path: skills/game-designer/SKILL.md
+  version: 1.0.0
+  updated: 2026-07-26
 metadata:
   category: 创意
   platform: 通用

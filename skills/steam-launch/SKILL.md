@@ -1,6 +1,12 @@
 ---
 name: steam-launch
 description: Steam 上架就绪检查——从商店页面到发布日的完整清单
+source:
+  type: original
+  repo: skills-repo/indie-game-developer
+  path: skills/steam-launch/SKILL.md
+  version: 1.0.0
+  updated: 2026-07-26
 metadata:
   category: 发布
   platform: Steam

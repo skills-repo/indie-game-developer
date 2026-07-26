@@ -1,6 +1,12 @@
 ---
 name: pixel-art-studio
 description: AI 驱动的像素艺术素材生成管线，支持角色、瓦片、动画全流程
+source:
+  type: original
+  repo: skills-repo/indie-game-developer
+  path: skills/pixel-art-studio/SKILL.md
+  version: 1.0.0
+  updated: 2026-07-26
 metadata:
   category: 美术
   platform: 通用

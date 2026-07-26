@@ -1,6 +1,12 @@
 ---
 name: game-music-generator
 description: 为游戏生成背景音乐和音效，支持多风格、多 Provider
+source:
+  type: original
+  repo: skills-repo/indie-game-developer
+  path: skills/game-music-generator/SKILL.md
+  version: 1.0.0
+  updated: 2026-07-26
 metadata:
   category: 音乐
   platform: 通用

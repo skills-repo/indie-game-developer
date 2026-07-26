@@ -1,6 +1,12 @@
 ---
 name: game-ai-systems
 description: 游戏中 NPC/敌人的 AI 行为设计与实现（FSM/行为树/GOAP）
+source:
+  type: original
+  repo: skills-repo/indie-game-developer
+  path: skills/game-ai-systems/SKILL.md
+  version: 1.0.0
+  updated: 2026-07-26
 metadata:
   category: AI
   platform: Unity,Godot

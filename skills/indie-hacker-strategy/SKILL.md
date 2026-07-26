@@ -1,6 +1,12 @@
 ---
 name: indie-hacker-strategy
 description: 独立开发者营销与增长策略——从 0 到第一批付费用户
+source:
+  type: original
+  repo: skills-repo/indie-game-developer
+  path: skills/indie-hacker-strategy/SKILL.md
+  version: 1.0.0
+  updated: 2026-07-26
 metadata:
   category: 运营
   platform: 通用

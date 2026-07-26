@@ -1,6 +1,12 @@
 ---
 name: game-tester
 description: Playwright 驱动的自动化游戏测试循环——截图→验证→调整
+source:
+  type: original
+  repo: skills-repo/indie-game-developer
+  path: skills/game-tester/SKILL.md
+  version: 1.0.0
+  updated: 2026-07-26
 metadata:
   category: 测试
   platform: Web
