@@ -1,64 +1,57 @@
 ---
 name: game-developer
-description: Unity/Unreal/Godot 游戏编程指导，覆盖架构、优化、联网全栈
+description: Three.js 浏览器游戏开发：游戏循环、物理、3D 资产、UI、QA 全流程
 source:
-  type: original
+  type: derived
   repo: skills-repo/indie-game-developer
   path: skills/game-developer/SKILL.md
   version: 1.0.0
   updated: 2026-07-26
+  url: https://skills.sh/majidmanzarpour/threejs-game-skills/threejs-game-director
 metadata:
-  category: 编程
-  platform: Unity,Unreal,Godot
+  category: 游戏开发
+  platform: Web
   difficulty: 进阶
 ---
 
-# 游戏开发专家
+# 游戏开发者
 
-> 引擎编程卡壳了？这里有 10 年经验的虚拟游戏程序员帮你。
+> Three.js 浏览器游戏全流程开发：从游戏循环搭建到 3D 资产、UI 设计、调试分析、QA 发布。
 
 ## 能力
 
-- **Unity C# 开发**：ECS 架构、MonoBehaviour 最佳实践、性能优化、对象池、LOD
-- **Unreal C++ 开发**：Actor/Component 模式、蓝图互操作、GAS（Gameplay Ability System）
-- **Godot GDScript 开发**：节点系统、信号机制、资源管理
-- **性能优化**：60+ FPS 指南、内存管理、Draw Call 优化、加载性能
-- **联网系统**：Client-Server 架构、延迟补偿、客户端预测、状态同步
-- **跨平台**：PC / 移动 / 主机平台的适配和优化
+- **游戏循环**：核心循环架构、实体系统、输入处理、物理选型
+- **3D 渲染**：模型加载、材质、着色器、灯光、后期特效
+- **游戏 UI**：HUD、菜单、覆盖层、响应式适配
+- **调试与性能**：Canvas 检查、性能分析、移动端适配
+- **QA 与发布**：浏览器兼容测试、截图验证、生产构建、Release Notes
 
 ## 使用方式
 
 ```
-/game-developer "我在 Unity 中实现一个卡牌战斗系统，玩家手牌上限 7 张，每回合抽 2 张，怎么设计数据结构？"
+/game-developer 创建一个跑酷游戏原型
+/game-developer 为这个游戏添加粒子特效和后处理
+/game-developer 分析这个游戏的性能瓶颈
 ```
 
 ## 工作流
 
-1. 描述你遇到的问题或要实现的功能
-2. 说明使用的引擎和版本
-3. AI 给出代码方案和架构建议
-4. 审查代码，确认符合项目风格
-5. 集成并测试
-
-## 引擎选择建议
-
-| 游戏类型 | 推荐引擎 |
-|----------|---------|
-| 2D 像素游戏 | Godot（轻量、原生支持） |
-| 3D 动作游戏 | Unity（生态最强） |
-| 3D 开放世界 | Unreal（大场景优化） |
-| Web 小游戏 | Three.js / Phaser（浏览器原生） |
-| H5 超休闲 | Cocos Creator |
+1. 设计游戏概念和核心循环
+2. 搭建 Three.js 项目脚手架
+3. 实现游戏机制和实体
+4. 迭代视觉和特效
+5. 性能分析和 QA 测试
+6. 构建发布版本
 
 ## 适用场景
 
-- 独立开发者非全职编程，遇到引擎问题需要指导
-- 性能瓶颈需要排查
-- 需要代码架构审查
+- 浏览器 3D 游戏开发
+- 游戏原型快速验证
+- 游戏性能优化
+- 独立游戏制作
 
 ## 限制
 
-- 不帮你写完整游戏——给方案和关键代码片段
-- 不做美术/设计工作（交给对应技能）
-- 不处理引擎 Bug（去 GitHub Issues 提）
-- 不负责测试（交给 game-tester）
+- 仅覆盖 Three.js/Web 游戏，不涉及 Unity/Unreal
+- 不涉及多人联机
+- 不涉及移动端原生发布

@@ -1,76 +1,56 @@
 ---
 name: steam-launch
-description: Steam 上架就绪检查——从商店页面到发布日的完整清单
+description: Steam 游戏发行：商店页审查、愿望单诊断、Demo 就绪、Next Fest 规划、发行清单
 source:
-  type: original
+  type: derived
   repo: skills-repo/indie-game-developer
   path: skills/steam-launch/SKILL.md
   version: 1.0.0
   updated: 2026-07-26
+  url: https://skills.sh/akillness/oh-my-skills/steam-store-launch-ops
 metadata:
-  category: 发布
+  category: 游戏发行
   platform: Steam
   difficulty: 进阶
 ---
 
-# Steam 发布准备
+# Steam 游戏发行
 
-> "发布日"不是上传就完了。把清单过一遍，避免上架即翻车。
+> Steam 商店发行操作：页面对赌审计、愿望单诊断、Demo 就绪检查、Next Fest 规划、发行清单。
 
 ## 能力
 
-- **商店页面检查**：标题、描述、标签、截图、预告片、系统需求
-- **构建就绪检查**：Depot 配置、Steamworks SDK 集成、成就/云存档配置
-- **定价策略建议**：区域定价、首发折扣、捆绑包策略
-- **发布日检查清单**：分支配置、Beta 测试、评测管理
-- **常见坑点预警**：愿望单数据、手柄支持声明、年龄分级、隐私政策
+- **商店页审计**：胶囊图、截图、预告片、短描述、标签优化
+- **愿望单诊断**：流量与转化分离分析，定位愿望单增长瓶颈
+- **Demo 就绪检查**：Demo 质量评估，判断公开暴露风险
+- **Next Fest 规划**：活动时间线、准备清单、预期管理
+- **发行 Runbook**：从 Coming Soon 到正式上线的操作清单
 
 ## 使用方式
 
 ```
-/steam-launch
+/steam-launch 审查我的 Steam 商店页
+/steam-launch 诊断为什么愿望单增长缓慢
+/steam-launch 帮我评估 Demo 是否准备好公开
 ```
 
 ## 工作流
 
-1. AI 逐项提问，帮你检查每个上架要求
-2. 标注"已完成 / 需处理 / 不适用"
-3. 给出未完成项的具体操作指引
-4. 最终确认：所有必选项 = 已完成
-
-## 核心清单
-
-```
-商店页面：
-- [ ] 商店标题和简短描述
-- [ ] 详细描述（含 GIF）
-- [ ] 至少 5 张截图
-- [ ] 预告片（可选但强烈推荐）
-- [ ] 标签（前 5 个最重要）
-- [ ] 系统需求（最低 + 推荐）
-- [ ] 年龄分级问卷
-
-技术构建：
-- [ ] Steamworks SDK 集成
-- [ ] Depot 配置正确
-- [ ] Steam 云存档配置
-- [ ] 成就图标上传
-- [ ] 默认分支设置为 release
-
-法律合规：
-- [ ] 隐私政策（如适用）
-- [ ] 第三方内容声明
-- [ ] AI 生成内容声明（Steam 新规）
-```
+1. 分类 Steam 需求到对应数据包
+2. 对商店页进行逐项审查
+3. 分离流量、转化、信任度、时机问题
+4. 输出一次性检查清单
+5. 路由非 Steam 问题到对应技能
 
 ## 适用场景
 
-- 第一次上架 Steam 的独立开发者
-- 发布前 2 周的最终检查
-- Steam Next Fest 参展前的就绪确认
+- 独立游戏 Steam 发行准备
+- 商店页优化
+- 愿望单策略
+- Demo/Next Fest 规划
 
 ## 限制
 
-- 不帮你写商店页文案（但可以 review）
-- 不做市场推广（交给 indie-hacker-strategy）
-- 不处理 itch.io / App Store / Epic 等其他平台的发布
+- 仅覆盖 Steam 平台，不涉及 Epic/Itch.io/主机
+- 不涉及社区管理和公关
+- 不涉及游戏内容开发
