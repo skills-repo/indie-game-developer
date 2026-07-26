@@ -16,18 +16,18 @@
 
 ## 技能清单
 
-| 环节 | 技能 | 描述 |
-|------|------|------|
-| 💡 创意 | `game-designer` | 一句话点子 → 完整游戏设计方案 |
-| 📝 设计 | `gdd-generator` | 生成专业游戏设计文档（GDD） |
-| 🏗️ 原型 | `web-game-prototype` | Three.js 3D 浏览器游戏快速原型 |
-| 🎨 美术 | `pixel-art-studio` | AI 像素艺术素材生成管线 |
-| 🎵 音乐 | `game-music-generator` | 游戏背景音乐和音效生成 |
-| 🔧 编程 | `game-developer` | Unity/Unreal/Godot 编程指导 |
-| 🤖 AI | `game-ai-systems` | 游戏 AI 行为设计（FSM/BT/GOAP） |
-| 🧪 测试 | `game-tester` | 自动化游戏测试循环 |
-| 📦 发布 | `steam-launch` | Steam 上架就绪检查清单 |
-| 📊 运营 | `indie-hacker-strategy` | 独立黑客营销与增长策略 |
+| 环节 | 技能 | 描述 | 来源 |
+|------|------|------|------|
+| 💡 创意 | `game-designer` | 一句话点子 → 完整游戏设计方案 | 原创 |
+| 📝 设计 | `gdd-generator` | 生成专业游戏设计文档（GDD） | 原创 |
+| 🏗️ 原型 | `web-game-prototype` | Three.js 3D 浏览器游戏快速原型 | 原创 |
+| 🎨 美术 | `pixel-art-studio` | AI 像素艺术素材生成管线 | 原创 |
+| 🎵 音乐 | `game-music-generator` | 游戏背景音乐和音效生成 | 原创 |
+| 🔧 编程 | `game-developer` | Unity/Unreal/Godot 编程指导 | 原创 |
+| 🤖 AI | `game-ai-systems` | 游戏 AI 行为设计（FSM/BT/GOAP） | 原创 |
+| 🧪 测试 | `game-tester` | 自动化游戏测试循环 | 原创 |
+| 📦 发布 | `steam-launch` | Steam 上架就绪检查清单 | 原创 |
+| 📊 运营 | `indie-hacker-strategy` | 独立黑客营销与增长策略 | 原创 |
 
 ## 快速开始
 
