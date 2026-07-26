@@ -1,6 +1,6 @@
 ---
 name: pixel-art-studio
-description: AI 驱动的像素艺术素材生成管线，支持角色、瓦片、动画全流程
+description: AI 像素艺术素材生成管线，支持角色、瓦片、动画全流程
 source:
   type: original
   repo: skills-repo/indie-game-developer
