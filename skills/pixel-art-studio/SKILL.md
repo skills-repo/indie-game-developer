@@ -1,13 +1,13 @@
 ---
 name: pixel-art-studio
-description: 像素艺术游戏构建：16x16 精灵生成、12 色调色板、放置/增量游戏机制
+description: 像素艺术精灵生成与动画：16x16 精灵、有限调色板、sprite sheet 管理、游戏集成
 source:
   type: derived
   repo: skills-repo/indie-game-developer
   path: skills/pixel-art-studio/SKILL.md
   version: 1.0.0
   updated: 2026-07-26
-  url: https://skills.sh/cooksaw/claude-skills/pixel-art-game-builder
+  url: https://skills.sh/omer-metin/skills-for-antigravity/pixel-art-sprites
 metadata:
   category: 游戏美术
   platform: Web
@@ -16,41 +16,40 @@ metadata:
 
 # 像素艺术工坊
 
-> 像素艺术放置/增量游戏构建：Canvas API 程序化精灵生成、React/Zustand 架构、冥想式游戏设计。
+> 像素艺术精灵生成：每个像素都是设计决策，关注可读剪影、有限调色板、游戏场景下的视觉清晰度。
 
 ## 能力
 
-- **像素精灵生成**：16×16 精灵的程序化生成，4 色/精灵，12 色调色板
-- **放置游戏机制**：自动生产、升级系统、收藏机制
-- **游戏经济设计**：平衡曲线、稀有度系统、升级路径
-- **视觉风格**：暗色背景、发光效果、缓慢有机动画
-- **技术实现**：React + TypeScript + Zustand + Canvas API
+- **角色精灵设计**：16×16 ~ 32×32 精灵的程序化生成，每个像素有意放置
+- **动画原理**：4 帧动画比 8 帧更好——帧数越少设计决策越强
+- **调色板设计**：有限色调色板（12 色），少即是多
+- **Sprite Sheet 管理**：精灵表组织、分辨率与缩放考量
+- **游戏引擎集成**：React + Canvas API，精灵在游戏场景中的实际表现
 
 ## 使用方式
 
 ```
-/pixel-art-studio 创建一个像素风放置游戏
-/pixel-art-studio 为这个游戏生成像素精灵
-/pixel-art-studio 设计一个收藏系统的稀有度体系
+/pixel-art-studio 生成一组像素角色精灵
+/pixel-art-studio 为这个角色设计 4 帧行走动画
+/pixel-art-studio 设计一个 12 色调色板用于暗色像素风游戏
 ```
 
-## 工作流
+## 设计哲学
 
-1. 设计游戏概念和核心循环
-2. 搭建 React + Vite + Zustand 项目
-3. 实现 Canvas 像素精灵生成器
-4. 构建放置/增量游戏机制
-5. 迭代视觉和平衡
+- 可读剪影 > 美丽细节——缩小到 32px 时细节会丢失
+- 硬边缘 > 抗锯齿——拥抱像素的硬边美学
+- 少帧 > 多帧——最佳动画用最少的帧传达最多的信息
+- 在 1x 缩放下如果认不出来，精灵就失败了
 
 ## 适用场景
 
-- 像素风放置游戏（Idle/Incremental）
-- 收藏类游戏（Collection-based）
-- 冥想式/休闲游戏
-- 像素精灵资源生成
+- 像素风角色和精灵资源
+- 游戏 tile 和 tileset
+- 像素动画设计
+- 复古/独立游戏美术
 
 ## 限制
 
-- 仅覆盖像素风（16×16），不涉及其它美术风格
+- 仅覆盖像素风（16×16 ~ 32×32），不涉及其它美术风格
 - 不涉及 3D 渲染
-- 不涉及多人联机
+- 不涉及音频设计

@@ -20,7 +20,7 @@
 |------|------|------|------|
 | 🔧 编程 | `game-developer` | Three.js 浏览器游戏开发：游戏循环、3D 资产、UI、QA 全流程 | [衍生](https://skills.sh/majidmanzarpour/threejs-game-skills/threejs-game-director) |
 | 🎨 设计 | `game-designer` | 游戏视觉打磨：调色板、粒子特效、动画、UI 评审 | [衍生](https://skills.sh/opusgamelabs/game-creator/design-game) |
-| 👾 美术 | `pixel-art-studio` | 像素艺术游戏构建：16x16 精灵、12 色调色板、Canvas API | [衍生](https://skills.sh/cooksaw/claude-skills/pixel-art-game-builder) |
+| 👾 美术 | `pixel-art-studio` | 像素艺术精灵生成与动画：16x16 像素、有限调色板、游戏集成 | [衍生](https://skills.sh/omer-metin/skills-for-antigravity/pixel-art-sprites) |
 | 📦 发行 | `steam-launch` | Steam 发行运营：商店页审计、愿望单诊断、Next Fest 规划 | [衍生](https://skills.sh/akillness/oh-my-skills/steam-store-launch-ops) |
 
 ## 快速开始
