@@ -31,6 +31,7 @@
 | 🔧 编程 | [game-developer](skills/game-developer/SKILL.md) | Three.js 浏览器游戏开发：游戏循环、3D 资产、UI、QA 全流程 | [衍生](https://skills.sh/majidmanzarpour/threejs-game-skills/threejs-game-director) |
 | 🎨 设计 | [game-designer](skills/game-designer/SKILL.md) | 游戏视觉打磨：调色板、粒子特效、动画、UI 评审 | [衍生](https://skills.sh/opusgamelabs/game-creator/design-game) |
 | 👾 美术 | [pixel-art-studio](skills/pixel-art-studio/SKILL.md) | 像素艺术精灵生成与动画：16x16 像素、有限调色板、游戏集成 | [衍生](https://skills.sh/omer-metin/skills-for-antigravity/pixel-art-sprites) |
+| ✨ 美术 | [refined-pixel-art](skills/refined-pixel-art/SKILL.md) | 精致手绘像素角色：参考图拆解、网格密度、色簇控制、提示词纠偏与验收 | 原创实践 |
 | 📦 发行 | [steam-launch](skills/steam-launch/SKILL.md) | Steam 发行运营：商店页审计、愿望单诊断、Next Fest 规划 | [衍生](https://skills.sh/akillness/oh-my-skills/steam-store-launch-ops) |
 
 ## 安装
@@ -41,6 +42,9 @@ npx skills add skills-repo/indie-game-developer -g -y
 
 # 单技能安装 —— 只要某一个细粒度能力，例如只要游戏开发能力
 npx skills add skills-repo/indie-game-developer@game-developer -g -y
+
+# 单独安装精致手绘像素角色技能
+npx skills add skills-repo/indie-game-developer@refined-pixel-art -g -y
 ```
 
 ## 内置脚本与模板

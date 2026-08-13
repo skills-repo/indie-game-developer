@@ -42,6 +42,8 @@ metadata:
 | Three.js 游戏开发（细粒度调用） | `skills/game-developer/SKILL.md` | three.js, 游戏循环, 物理, 3D, 后处理 |
 | 游戏视觉与打磨（细粒度调用） | `skills/game-designer/SKILL.md` | 视觉, 粒子, 手感, UI, 调色板 |
 | 像素美术工坊（细粒度调用） | `skills/pixel-art-studio/SKILL.md` | 像素, 精灵, 调色板, 精灵表, 动画 |
+| 精致像素角色方法（密度/色簇/白底 icon/纠偏） | `references/refined-pixel-art-playbook.md` | 精致像素, hand-drawn pixel, 网格密度, 色簇, 白底 |
+| 精致手绘像素角色（细粒度调用） | `skills/refined-pixel-art/SKILL.md` | refined pixel, 参考图, 角色 icon, prompt, 验收 |
 | Steam 发行操作（细粒度调用） | `skills/steam-launch/SKILL.md` | steam, 商店页, Demo, 发行, 清单 |
 
 > 路由规则：先判断任务属于「选型 / 资源 / 发行 / QA」哪类方法论 → 读 `references/`；要落地某个具体能力 → 直接调 `skills/` 对应子技能。
@@ -67,6 +69,7 @@ python3 scripts/check_steam_metadata.py --metadata assets/steam-store-metadata-t
 - `assets/steam-store-metadata-template.json` — Steam 商店元数据模板（脚本自检 0 错误）
 - `assets/asset-manifest-example.json` — 资源清单示例（驱动 check_asset_refs 的清单模式）
 - `assets/sample-game/` — 示例游戏场景，演示资源引用解析（扫描模式自检 0 错误）
+- `assets/refined-pixel-character-prompt.md` — 精致像素角色与白底 icon 提示词模板
 
 ## 核心原则（始终遵循）
 
