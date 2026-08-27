@@ -152,4 +152,11 @@ Steam 推荐用区域差价（新兴市场更低），别全球统一定价伤�
 - [ ] 放可玩 Demo 降低"加愿但不买"的犹豫
 - [ ] 社区（Discord/Reddit）沉淀核心粉丝，首发转化
 
+## 相关子技能与层次边界
+
+> 本文属**Steam 发行方法层**（时间线 / 愿望单漏斗 / 定价 / Next Fest / 运营）；具体操作交给子技能。
+
+- 落地「Steam 发行操作（商店页审计 / 愿望单 / Demo / Next Fest）」→ `skills/steam-launch/SKILL.md`
+- 兄弟参考：选型与 Web → Steam 发布路径 → `references/decision-engine-tech.md` §8
+
 

@@ -120,3 +120,12 @@ Q2 商业考量
 > 我选〔引擎〕不选〔A〕/〔B〕：① 〔A〕在〔维度〕不满足〔约束〕；
 > ② 团队有〔技能〕可立刻上手；③ 〔风险〕有〔缓解〕。若未来〔触发〕，则回到 §10 评估迁移。
 
+## 相关子技能与层次边界
+
+> 本文属**引擎选型方法层**（决策树 + 矩阵 + 发布路径）；具体开发与视觉打磨交给子技能。
+
+- 落地「Three.js 浏览器游戏开发」→ `skills/game-developer/SKILL.md`
+- 落地「游戏视觉设计与打磨」→ `skills/game-designer/SKILL.md`
+- 兄弟参考：资源解耦与可迁移性 → `references/asset-pipeline.md` §12
+- 兄弟参考：选型后的 QA / 性能基线 → `references/game-qa-perf.md`
+

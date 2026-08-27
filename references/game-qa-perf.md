@@ -149,3 +149,12 @@ function update(){ _tmp.set(...); ... }
 - [ ] 卡顿分类（§11）逐一排除，无周期性 GC / 持续低帧
 - [ ] 异步加载就位，无加载期主线程卡死
 
+## 相关子技能与层次边界
+
+> 本文属**QA 与性能方法层**（帧预算 / GC / 移动与 Deck 适配 / 性能门禁）；具体调试与发布交给子技能。
+
+- 落地「Three.js 性能调试与发布」→ `skills/game-developer/SKILL.md`
+- 落地「游戏手感 / UI 打磨」→ `skills/game-designer/SKILL.md`
+- 兄弟参考：资源引用完整性（运行时缺图根因）→ `references/asset-pipeline.md` §5
+- 兄弟参考：选型对性能的上限约束 → `references/decision-engine-tech.md` §3
+

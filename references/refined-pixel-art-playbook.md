@@ -119,3 +119,11 @@ Forbidden: floor, pedestal, cast shadow, reflection, frame, particles, text
 - [ ] 没有复制参考图的角色、服装、Logo 或网格线
 - [ ] 文件名包含角色、动作和密度/版本信息
 - [ ] 保留上一版本，便于对比与回退
+
+## 相关子技能与层次边界
+
+> 本文属**精致手绘像素方法层**（密度 / 色簇 / 白底 icon / 纠偏）；批量精灵生产与角色验收交给子技能。
+
+- 落地「精致手绘像素角色生成（验收交付）」→ `skills/refined-pixel-art/SKILL.md`
+- 落地「像素精灵与 sprite sheet 批量生产」→ `skills/pixel-art-studio/SKILL.md`
+- 层次边界：本文只定密度 / 色簇 / 白底 icon 的方法与纠偏；批量精灵交给 `pixel-art-studio`，逐格角色验收交给 `refined-pixel-art`。

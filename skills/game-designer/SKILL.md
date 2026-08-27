@@ -54,3 +54,9 @@ metadata:
 - 不改变游戏逻辑（物理/得分/控制）
 - 不涉及 3D 模型设计
 - 不涉及音频设计
+
+> 本子技能属**视觉打磨执行层**（调色板 / 粒子 / 动效 / UI / 手感）；方法层见 reference。
+
+- 游戏视觉 / 手感 QA 基线 → `references/game-qa-perf.md`
+- 选型时的视觉与 2D/3D 维度 → `references/decision-engine-tech.md`
+- 像素精灵与 sprite sheet 生产 → `skills/pixel-art-studio/SKILL.md`

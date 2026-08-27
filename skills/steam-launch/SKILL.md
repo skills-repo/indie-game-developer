@@ -54,3 +54,8 @@ metadata:
 - 仅覆盖 Steam 平台，不涉及 Epic/Itch.io/主机
 - 不涉及社区管理和公关
 - 不涉及游戏内容开发
+
+> 本子技能属**Steam 发行执行层**（商店页审计 / 愿望单 / Demo / Next Fest）；方法层见 reference。
+
+- 发行方法论（时间线 / 愿望单漏斗 / 定价 / Next Fest）→ `references/steam-launch-playbook.md`
+- 选型与 Web → Steam 发布路径 → `references/decision-engine-tech.md` §8

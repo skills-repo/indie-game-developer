@@ -69,3 +69,8 @@ metadata:
 - 不负责动画帧时序与 sprite sheet 打包；这类任务交给 `pixel-art-studio`
 - 不适合写实肖像、复杂透明材质、软毛发或依赖抗锯齿的画面
 - 不在未检查生成结果时宣称背景为纯白、轮廓无抗锯齿或像素网格完全一致
+
+> 本子技能属**精致像素角色执行层**（参考图拆解 / 网格密度 / 色簇 / 白底 icon 验收）；方法层见 reference。
+
+- 精致像素方法（密度 / 色簇 / 白底 icon / 纠偏）→ `references/refined-pixel-art-playbook.md`
+- 像素精灵与 sprite sheet 批量生产 → `skills/pixel-art-studio/SKILL.md`

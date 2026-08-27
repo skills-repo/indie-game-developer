@@ -55,3 +55,9 @@ metadata:
 - 仅覆盖 Three.js/Web 游戏，不涉及 Unity/Unreal
 - 不涉及多人联机
 - 不涉及移动端原生发布
+
+> 本子技能属**Three.js 开发执行层**（游戏循环 / 物理 / 3D 资产 / UI / QA）；方法层见 reference。
+
+- 引擎选型决策树 → `references/decision-engine-tech.md`
+- 资源管线（glb / 精灵表 / 引用完整性）→ `references/asset-pipeline.md`
+- 性能与 QA 基线 → `references/game-qa-perf.md`
