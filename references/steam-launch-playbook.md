@@ -156,7 +156,7 @@ Steam 推荐用区域差价（新兴市场更低），别全球统一定价伤�
 
 > 本文属**Steam 发行方法层**（时间线 / 愿望单漏斗 / 定价 / Next Fest / 运营）；具体操作交给子技能。
 
-- 落地「Steam 发行操作（商店页审计 / 愿望单 / Demo / Next Fest）」→ `skills/steam-launch/SKILL.md`
+- 落地「Steam 发行操作（商店页审计 / 愿望单 / Demo / Next Fest）」→ [`skills/steam-launch/SKILL.md`](../skills/steam-launch/SKILL.md)
 - 兄弟参考：选型与 Web → Steam 发布路径 → `references/decision-engine-tech.md` §8
 
 

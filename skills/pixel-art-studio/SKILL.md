@@ -56,5 +56,5 @@ metadata:
 
 > 本子技能属**像素美术执行层**（16×16~32×32 精灵 / 调色板 / sprite sheet）；方法层见 reference。
 
-- 资源管线（精灵表打包 / 引用完整性）→ `references/asset-pipeline.md`
-- 精致手绘像素角色方法 → `references/refined-pixel-art-playbook.md`
+- 资源管线（精灵表打包 / 引用完整性）→ [`references/asset-pipeline.md`](../../references/asset-pipeline.md)
+- 精致手绘像素角色方法 → [`references/refined-pixel-art-playbook.md`](../../references/refined-pixel-art-playbook.md)

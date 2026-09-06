@@ -161,8 +161,8 @@ jobs:
 
 > 本文属**资源管线方法层**（格式选型 / 精灵表 / glb / 音频 / 引用完整性）；具体的精灵生成与 3D 资产加载交给子技能。
 
-- 像素美术精灵与 sprite sheet 生成 → `skills/pixel-art-studio/SKILL.md`
-- Three.js 资源加载与引用对齐 → `skills/game-developer/SKILL.md`
+- 像素美术精灵与 sprite sheet 生成 → [`skills/pixel-art-studio/SKILL.md`](../skills/pixel-art-studio/SKILL.md)
+- Three.js 资源加载与引用对齐 → [`skills/game-developer/SKILL.md`](../skills/game-developer/SKILL.md)
 - 引用完整性确定性校验 → `scripts/check_asset_refs.py`
 - 兄弟参考：引擎无关格式与迁移止损 → `references/decision-engine-tech.md` §10
 - 兄弟参考：运行时缺图根因排查 → `references/game-qa-perf.md` §6

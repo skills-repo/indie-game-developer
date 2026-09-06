@@ -57,5 +57,5 @@ metadata:
 
 > 本子技能属**Steam 发行执行层**（商店页审计 / 愿望单 / Demo / Next Fest）；方法层见 reference。
 
-- 发行方法论（时间线 / 愿望单漏斗 / 定价 / Next Fest）→ `references/steam-launch-playbook.md`
-- 选型与 Web → Steam 发布路径 → `references/decision-engine-tech.md` §8
+- 发行方法论（时间线 / 愿望单漏斗 / 定价 / Next Fest）→ [`references/steam-launch-playbook.md`](../../references/steam-launch-playbook.md)
+- 选型与 Web → Steam 发布路径 → [`references/decision-engine-tech.md`](../../references/decision-engine-tech.md) §8

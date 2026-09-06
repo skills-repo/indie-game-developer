@@ -124,8 +124,8 @@ Q2 商业考量
 
 > 本文属**引擎选型方法层**（决策树 + 矩阵 + 发布路径）；具体开发与视觉打磨交给子技能。
 
-- 落地「Three.js 浏览器游戏开发」→ `skills/game-developer/SKILL.md`
-- 落地「游戏视觉设计与打磨」→ `skills/game-designer/SKILL.md`
+- 落地「Three.js 浏览器游戏开发」→ [`skills/game-developer/SKILL.md`](../skills/game-developer/SKILL.md)
+- 落地「游戏视觉设计与打磨」→ [`skills/game-designer/SKILL.md`](../skills/game-designer/SKILL.md)
 - 兄弟参考：资源解耦与可迁移性 → `references/asset-pipeline.md` §12
 - 兄弟参考：选型后的 QA / 性能基线 → `references/game-qa-perf.md`
 
