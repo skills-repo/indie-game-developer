@@ -3,7 +3,7 @@
 > 子技能讲了"怎么画精灵/怎么写 Three.js"，但资源从生产到进游戏有一条独立链路：
 > 精灵表打包、贴图压缩、音频转码、模型优化、引用对齐。断了任何一环，游戏要么
 > 体积爆炸要么运行时缺资源。本篇是跨栈的资源管线 playbook，附命令、坑与清单。
-> 脚本资源完整性校验见 `scripts/check_asset_refs.py`。
+> 脚本资源完整性校验见 [scripts/check_asset_refs.py](../scripts/check_asset_refs.py)。
 
 ## 1. 资源分类与格式选型
 
@@ -64,7 +64,7 @@ ffmpeg -i bgm.wav -c:a libvorbis -q:a 5 bgm.ogg
 ## 5. 资源引用对齐（防"运行时缺图"）
 
 最痛的 bug：代码引用了 `hero.png`，但文件改名成 `hero_02.png` → 运行时裂图/报错。
-用 `scripts/check_asset_refs.py` 在 CI 里扫源码引用并校验文件存在（见该脚本说明）。
+用 [scripts/check_asset_refs.py](../scripts/check_asset_refs.py) 在 CI 里扫源码引用并校验文件存在（见该脚本说明）。
 约定：
 - 资源路径集中放常量/清单，不散落魔法字符串
 - 改名走全局替换 + 跑引用校验
@@ -87,7 +87,7 @@ ffmpeg -i bgm.wav -c:a libvorbis -q:a 5 bgm.ogg
 - [ ] 音频已转码（ogg/mp3），Web 端 resume 逻辑就位
 - [ ] 字体已子集化，体积可控
 - [ ] 资源路径集中管理，无散落魔法字符串
-- [ ] 改资源名后跑了 `scripts/check_asset_refs.py`，0 缺失引用
+- [ ] 改资源名后跑了 [scripts/check_asset_refs.py](../scripts/check_asset_refs.py)，0 缺失引用
 - [ ] 资源清单进版本控制，CI 校验完整性通过
 - [ ] 图集尺寸 ≤2048 且为 2 的幂，移动端兼容
 
@@ -150,12 +150,12 @@ jobs:
 - 纹理：`texpresso` / `toktx`（KTX2）、`imageoptim`（WebP）
 - 音频：`ffmpeg`（转码）、`audacity`（剪辑）
 - 字体：`fonttools`（子集化）
-- 校验：`scripts/check_asset_refs.py`（引用完整性，本项目自带）
+- 校验：[scripts/check_asset_refs.py](../scripts/check_asset_refs.py)（引用完整性，本项目自带）
 
 ## 12. 资源解耦（为可迁移性）
 
 资源统一用引擎无关格式（glb / 精灵表 / 配置 JSON），业务逻辑与渲染解耦。
-这样换引擎时主要重写渲染层，资源可复用（见 `references/decision-engine-tech.md` §10）。
+这样换引擎时主要重写渲染层，资源可复用（见 [references/decision-engine-tech.md](decision-engine-tech.md) §10）。
 
 ## 相关子技能与层次边界
 
@@ -163,7 +163,7 @@ jobs:
 
 - 像素美术精灵与 sprite sheet 生成 → [`skills/pixel-art-studio/SKILL.md`](../skills/pixel-art-studio/SKILL.md)
 - Three.js 资源加载与引用对齐 → [`skills/game-developer/SKILL.md`](../skills/game-developer/SKILL.md)
-- 引用完整性确定性校验 → `scripts/check_asset_refs.py`
-- 兄弟参考：引擎无关格式与迁移止损 → `references/decision-engine-tech.md` §10
-- 兄弟参考：运行时缺图根因排查 → `references/game-qa-perf.md` §6
+- 引用完整性确定性校验 → [scripts/check_asset_refs.py](../scripts/check_asset_refs.py)
+- 兄弟参考：引擎无关格式与迁移止损 → [references/decision-engine-tech.md](decision-engine-tech.md) §10
+- 兄弟参考：运行时缺图根因排查 → [references/game-qa-perf.md](game-qa-perf.md) §6
 

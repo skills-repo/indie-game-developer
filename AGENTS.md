@@ -45,7 +45,7 @@ indie-game-developer/
 - 每个技能需明确"能做什么"和"不能做什么"
 - 优先覆盖独立开发者（单人/小团队）场景
 - 面向 Steam / itch.io / App Store 等买断制平台
-- 选型类问题先读 `references/decision-engine-tech.md` 用决策树论证，再落地
+- 选型类问题先读 [references/decision-engine-tech.md](references/decision-engine-tech.md) 用决策树论证，再落地
 - 资源/发行/QA 类问题先读对应 `references/` playbook，再调子技能
 
 ## 技能添加流程

@@ -105,7 +105,7 @@ Forbidden: floor, pedestal, cast shadow, reflection, frame, particles, text
 7. 完整负向约束
 8. 稳定文件名意图
 
-直接套用 `assets/refined-pixel-character-prompt.md`，删除不适用字段，不要继续堆形容词。
+直接套用 [assets/refined-pixel-character-prompt.md](../assets/refined-pixel-character-prompt.md)，删除不适用字段，不要继续堆形容词。
 
 ## 8. 交付检查清单
 

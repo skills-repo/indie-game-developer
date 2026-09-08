@@ -42,7 +42,7 @@ Q2 商业考量
 
 ## 3. 2D vs 3D 的隐性成本
 
-- **2D 不等于简单**：精灵表管理、帧动画、图集打包、像素对齐都是真功夫（见 `pixel-art-studio` 与 `references/asset-pipeline.md`）
+- **2D 不等于简单**：精灵表管理、帧动画、图集打包、像素对齐都是真功夫（见 `pixel-art-studio` 与 [references/asset-pipeline.md](asset-pipeline.md)）
 - **3D 的坑在性能与资产**：模型面数、骨骼、贴图尺寸、光照烘焙，WebGL 下尤甚；移动端 GPU 是硬约束
 - **伪 3D / 2.5D**：用 2D 精灵 + 视差/缩放伪造景深，往往比真 3D 更快出货且性能友好（独立游戏常用）
 
@@ -79,8 +79,8 @@ Q2 商业考量
 - 像素美术 → `pixel-art-studio`（精灵/调色板/精灵表）
 - 视觉打磨 → `game-designer`（调色板/粒子/手感/UI）
 - 上 Steam → `steam-launch`（商店页/愿望单/Next Fest）
-- 资源管线 → 见 `references/asset-pipeline.md`
-- 发布 QA → 见 `references/game-qa-perf.md`
+- 资源管线 → 见 [references/asset-pipeline.md](asset-pipeline.md)
+- 发布 QA → 见 [references/game-qa-perf.md](game-qa-perf.md)
 
 ## 8. 发布路径：Web → Steam 的几种走法
 
@@ -113,7 +113,7 @@ Q2 商业考量
 - 抽成/许可变更导致商业模型不可行
 - 团队技能与引擎严重错配，招聘长期无解
 
-迁移顺序（渐进式，参考 `references/asset-pipeline.md` 的资源解耦）：先抽离资源与数据格式（glb/精灵表/配置 JSON），再换渲染层，业务逻辑最后迁。资源解耦做得好，换引擎主要重写渲染与输入。
+迁移顺序（渐进式，参考 [references/asset-pipeline.md](asset-pipeline.md) 的资源解耦）：先抽离资源与数据格式（glb/精灵表/配置 JSON），再换渲染层，业务逻辑最后迁。资源解耦做得好，换引擎主要重写渲染与输入。
 
 ## 11. 反向论证模板（收口必写）
 
@@ -126,6 +126,6 @@ Q2 商业考量
 
 - 落地「Three.js 浏览器游戏开发」→ [`skills/game-developer/SKILL.md`](../skills/game-developer/SKILL.md)
 - 落地「游戏视觉设计与打磨」→ [`skills/game-designer/SKILL.md`](../skills/game-designer/SKILL.md)
-- 兄弟参考：资源解耦与可迁移性 → `references/asset-pipeline.md` §12
-- 兄弟参考：选型后的 QA / 性能基线 → `references/game-qa-perf.md`
+- 兄弟参考：资源解耦与可迁移性 → [references/asset-pipeline.md](asset-pipeline.md) §12
+- 兄弟参考：选型后的 QA / 性能基线 → [references/game-qa-perf.md](game-qa-perf.md)
 

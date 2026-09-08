@@ -30,7 +30,7 @@ T+2 周  首周数据复盘，调整标签/折扣/视觉
 | 标签（tags） | 发现流量 | 5–20 个，覆盖类型/题材/相似游戏 |
 | 评测引用 | 信任 | 有媒体/KOL 评价就放，没就靠早期.access |
 
-对照 `assets/steam-store-metadata-template.json` 自检字段齐备（脚本校验见 `scripts/check_steam_metadata.py`）。
+对照 [assets/steam-store-metadata-template.json](../assets/steam-store-metadata-template.json) 自检字段齐备（脚本校验见 [scripts/check_steam_metadata.py](../scripts/check_steam_metadata.py)）。
 
 ## 3. 愿望单漏斗诊断
 
@@ -80,7 +80,7 @@ T+2 周  首周数据复盘，调整标签/折扣/视觉
 - [ ] Demo 完成且与正式版体验一致，三端可跑
 - [ ] Next Fest 时间线已排，Deck 验证已做
 - [ ] 定价+区域差价已定，首周折扣策略已定
-- [ ] `assets/steam-store-metadata-template.json` 已填，脚本校验 0 错误
+- [ ] [assets/steam-store-metadata-template.json](../assets/steam-store-metadata-template.json) 已填，脚本校验 0 错误
 - [ ] 上线时间线（倒排）已同步团队与 `steam-launch` 子技能
 
 ## 8. 上线后运营（发布不是终点）
@@ -157,6 +157,6 @@ Steam 推荐用区域差价（新兴市场更低），别全球统一定价伤�
 > 本文属**Steam 发行方法层**（时间线 / 愿望单漏斗 / 定价 / Next Fest / 运营）；具体操作交给子技能。
 
 - 落地「Steam 发行操作（商店页审计 / 愿望单 / Demo / Next Fest）」→ [`skills/steam-launch/SKILL.md`](../skills/steam-launch/SKILL.md)
-- 兄弟参考：选型与 Web → Steam 发布路径 → `references/decision-engine-tech.md` §8
+- 兄弟参考：选型与 Web → Steam 发布路径 → [references/decision-engine-tech.md](decision-engine-tech.md) §8
 
 

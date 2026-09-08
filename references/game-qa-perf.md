@@ -32,7 +32,7 @@
 
 优化手段（按性价比）：
 1. **合批**：静态网格 `BufferGeometryUtils.mergeGeometries` 合并；同材质物体一起画
-2. **降 draw call**：共享材质/纹理，图集代替散图（见 `references/asset-pipeline.md`）
+2. **降 draw call**：共享材质/纹理，图集代替散图（见 [references/asset-pipeline.md](asset-pipeline.md)）
 3. **降面**：LOD（远处低模），剔除不可见（Frustum Culling 默认开，但大场景手动分区）
 4. **纹理**：KTX2/GPU 压缩，mipmap 开启，尺寸 2 的幂
 5. **阴影**：阴影最贵；用单方向光 + 低分辨率 shadow map，或烘焙
@@ -80,7 +80,7 @@ function update(){ _tmp.set(...); ... }
 - **坑：阴影全开**GPU 爆。*规避*：单光 + 低分辨率 shadow map / 烘焙。
 - **坑：像素比不设上限**4K 屏炸显存。*规避*：`setPixelRatio(min(dpr,2))`。
 - **坑：只测桌面不测移动**，上线 Deck 翻车。*规避*：移动/Deck 纳入必测矩阵。
-- **坑：资源引用缺失**运行时裂图（见 `references/asset-pipeline.md` + `scripts/check_asset_refs.py`）。
+- **坑：资源引用缺失**运行时裂图（见 [references/asset-pipeline.md](asset-pipeline.md) + [scripts/check_asset_refs.py](../scripts/check_asset_refs.py)）。
 
 ## 7. 收口清单
 
@@ -92,7 +92,7 @@ function update(){ _tmp.set(...); ... }
 - [ ] 移动端 setPixelRatio 封顶、帧率封顶、手柄+触屏支持
 - [ ] 挂机/切后台/极端输入/坏档 四类健壮性通过
 - [ ] 多分辨率 UI 对齐（手机/平板/Deck）
-- [ ] 资源引用完整性 `scripts/check_asset_refs.py` 0 缺失
+- [ ] 资源引用完整性 [scripts/check_asset_refs.py](../scripts/check_asset_refs.py) 0 缺失
 
 ## 8. 目标设备与性能基线
 
@@ -155,6 +155,6 @@ function update(){ _tmp.set(...); ... }
 
 - 落地「Three.js 性能调试与发布」→ [`skills/game-developer/SKILL.md`](../skills/game-developer/SKILL.md)
 - 落地「游戏手感 / UI 打磨」→ [`skills/game-designer/SKILL.md`](../skills/game-designer/SKILL.md)
-- 兄弟参考：资源引用完整性（运行时缺图根因）→ `references/asset-pipeline.md` §5
-- 兄弟参考：选型对性能的上限约束 → `references/decision-engine-tech.md` §3
+- 兄弟参考：资源引用完整性（运行时缺图根因）→ [references/asset-pipeline.md](asset-pipeline.md) §5
+- 兄弟参考：选型对性能的上限约束 → [references/decision-engine-tech.md](decision-engine-tech.md) §3
 

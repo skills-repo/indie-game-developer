@@ -73,4 +73,4 @@ metadata:
 > 本子技能属**精致像素角色执行层**（参考图拆解 / 网格密度 / 色簇 / 白底 icon 验收）；方法层见 reference。
 
 - 精致像素方法（密度 / 色簇 / 白底 icon / 纠偏）→ [`references/refined-pixel-art-playbook.md`](../../references/refined-pixel-art-playbook.md)
-- 像素精灵与 sprite sheet 批量生产 → `skills/pixel-art-studio/SKILL.md`
+- 像素精灵与 sprite sheet 批量生产 → [skills/pixel-art-studio/SKILL.md](../pixel-art-studio/SKILL.md)
