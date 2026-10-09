@@ -11,7 +11,7 @@
 本仓库采用 skills-repo 的 **superpower 架构**（五层）：
 
 - `SKILL.md` — L1 路由层，只做能力索引，不写方法论
-- `references/` — L2 深层 playbook（引擎选型、资源管线、Steam 发行、QA 性能），按需加载
+- `references/` — L2 深层 playbook（引擎选型、资源管线、Steam 发行、QA 性能、精致像素方法），按需加载
 - `skills/` — L3 细粒度子技能（Three.js / 设计 / 像素美术 / Steam 发行），可单独安装
 - `scripts/` — L4 确定性脚本（资源引用完整性、Steam 元数据校验）
 - `assets/` — L5 可复用模板（商店元数据模板、资源清单示例、示例场景）
